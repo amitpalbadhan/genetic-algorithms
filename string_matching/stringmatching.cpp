@@ -18,7 +18,7 @@ StringMatching::StringMatching (std::string inputString) {
     // seed mt19937
     rng.seed(std::chrono::steady_clock::now().time_since_epoch().count());
 
-    // init letter generator
+    // init random number generator (max 255 for characters)
     distrib = std::uniform_int_distribution<int>(0, 255);
 }
 
