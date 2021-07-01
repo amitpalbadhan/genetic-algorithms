@@ -15,8 +15,8 @@ int main() {
     while (stringMatching.getFitnessOfFittest() < stringMatching.getTargetSize()) {
         ++generationCount;
         
-        // prints the fittest gene of each generation
-        // std::cout << stringMatching.getFittestGene() << "\n";
+        // prints the fittest chromosome of each generation
+        // std::cout << stringMatching.getFittestChromosome() << "\n";
         
         // prints the highest fittness score of each generation
         std::cout << "Generation: " << generationCount << ", Fittest: " << stringMatching.getFitnessOfFittest() << "\n";
