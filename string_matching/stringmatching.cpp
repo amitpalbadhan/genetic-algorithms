@@ -70,7 +70,7 @@ std::string StringMatching::getFittest(std::vector<std::string> currentPopulatio
 }
 
 
-std::string StringMatching::getFittestGene() {
+std::string StringMatching::getFittestChromosome() {
     return getFittest(population);
 }
 
