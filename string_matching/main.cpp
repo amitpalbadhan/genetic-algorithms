@@ -18,7 +18,7 @@ int main() {
         // prints the fittest gene of each generation
         // std::cout << stringMatching.getFittestGene() << "\n";
         
-        // prints the highest fittnes score of each generation
+        // prints the highest fittness score of each generation
         std::cout << "Generation: " << generationCount << ", Fittest: " << stringMatching.getFitnessOfFittest() << "\n";
         
         stringMatching.evolvePopulation();
