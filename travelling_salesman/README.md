@@ -349,8 +349,7 @@ plt.show()
 
 
 ```python
-# A solution found with this genetic algorithm 
-# was very similar to a optimal solution
+# Optimal solution found using this genetic algorithm 
 Image(filename='solution.png') 
 ```
 
