@@ -39,7 +39,7 @@ public:
     std::string getFittest(std::vector<std::string> currentPopulation);
 
 
-    std::string getFittestGene();
+    std::string getFittestChromosome();
 
 
     int getFitnessOfFittest();
